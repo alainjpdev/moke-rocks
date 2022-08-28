@@ -102,7 +102,7 @@
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
-      width: 84%;
+      width: 100%;
     }
   }
   
