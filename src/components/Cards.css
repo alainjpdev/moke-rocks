@@ -18,11 +18,11 @@
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 60px 0 45px;
   }
   
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 30px;
   }
   
   .cards__item {

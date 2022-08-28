@@ -67,7 +67,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           
-          <small class='website-rights'>MR. JEAN PAUL TULUM © 202</small>
+          <small class='website-rights'>MR. JEAN PAUL TULUM © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
