@@ -101,10 +101,10 @@
     }
   
     .nav-menu.active {
-      /* background: #242222; */
+      background: #242222;
       padding-top: 0px;
       left: 0;
-      opacity: 1;
+      /* opacity: .8; */
       transition: all 0.5s ease;
       z-index: 1;
     }
@@ -114,7 +114,8 @@
       padding: 1rem;
       width: 100%;
       display: table;
-      color: white;
+      color:black;
+      
     }
   
     .nav-links:hover {

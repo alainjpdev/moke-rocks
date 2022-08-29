@@ -1,0 +1,21 @@
+
+
+
+.section-title{
+    text-align: center;
+    padding: 15px 0;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: .5rem;
+}
+
+.container{
+    display: flex;
+}
+.canvas{
+    /* position: fixed; */
+    width: 70%;
+   
+}
