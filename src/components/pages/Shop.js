@@ -12,8 +12,10 @@ export default function Shop() {
     </div>
     <div className="container">
         <div className="canvas-section">
-            <ColorPicker images={MokesData}/>
-            <ColorPallete/>
+          <ColorPallete/>
+
+            {/* <ColorPicker images={MokesData}/>
+            <ColorPallete/> */}
                 {/* {console.log(MokesData.image[0])} */}
          
             {/* <img src="../images/moke_custom/black.png" alt="black-moke"className='canvas' /> */}
