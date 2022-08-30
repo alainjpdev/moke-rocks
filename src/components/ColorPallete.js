@@ -25,15 +25,18 @@ function ColorPallete() {
     "./images/moke_custom/body/camo-body.png"
     ]
     const [images, setImages] = useState("./images/moke_custom/body/black-body.png")
+
+    const [show, setShow] = useState(true)
     
   return (<>
+
   <div className="container">
 
       <div className="container-image">
         <img src={images} alt="Travel" width={"100%"}/>    
       </div>
 
-      
+      {show? 
       <div className="border">
       <div className='container-title'>
           <h1>BODY COLOR</h1>
@@ -42,7 +45,9 @@ function ColorPallete() {
       <div className="container-moke">
 
       <div className="card-moke" key={"black"}>
-              <div className="box-moke" onClick={() => setImages("/images/moke_custom/body/black-body.png")} style={{background : black}}>
+              <div className="box-moke" onClick={() => 
+                setImages("/images/moke_custom/body/black-body.png")} 
+                style={{background : black}}>
                 
               </div>
             <p>BLACK</p>
@@ -55,7 +60,9 @@ function ColorPallete() {
           </div>  
 
           <div className="card-moke" key={"pink"}>
-              <div className="box-moke" onClick={() => setImages("/images/moke_custom/body/pink-body.png")} style={{background : "#FFCBFF"}}>
+              <div className="box-moke" onClick={() =>
+                 setImages("/images/moke_custom/body/pink-body.png")} 
+                    style={{background : "#FFCBFF"}}>
               </div>
               <p>PINK</p>
           </div>
@@ -124,8 +131,16 @@ function ColorPallete() {
         </div>
         </div>
 
-      </div>
+      </div>:null}
   </div>
+
+  <div className="pagination-container">
+            <a href="#" class="previous" onClick={() => 
+              setShow(true)}>&laquo; Previous</a>
+
+              
+            <a href="#" class="next" onClick={() => setShow(false)}>Next &raquo;</a>
+        </div>
     </>
   )
 }

@@ -6,15 +6,7 @@
 
 }
 .container{
-  display: grid;
-  /* flex-wrap: wrap; */
-  /* background-color: red;  */
-  /* margin: 10px; */
- /* justify-content: space-around; */
-  /* align-items: flex-start;  */
-  /* flex-direction: row; */
-  /* margin-top: 200px; */
- 
+  display: grid; 
 }
 
 
@@ -60,7 +52,7 @@
 .container-moke .card-moke {
 
   /* background-color: purple; */
-  width: 150px;
+  width: 130px;
   padding: 4px;
   
   display: flex;
@@ -93,3 +85,46 @@
   padding: 0px 10px 0 10px 0px;
   /* justify-content: center; */
 }
+
+.pagination-container{
+  padding: 30px;
+  align-self: center;
+  /* background-color: blue; */
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: black;
+  color: white;
+  font-weight: 750;
+  font-size: 1rem;
+  /* background-color: aqua; */
+  font-family: Montserrat, sans-serif;
+
+  letter-spacing: 2px;
+  word-spacing:0px; 
+}
+
+.next {
+  background-color: black;
+  color: white;
+  font-weight: 750;
+  font-size: 1rem;
+  /* background-color: aqua; */
+  font-family: Montserrat, sans-serif;
+
+  letter-spacing: 2px;
+  word-spacing:0px; 
+}
+

@@ -1,5 +1,7 @@
 import React from 'react';
 import ColorPallete from '../ColorPallete';
+import Pagination from '../Pagination';
+
 
 import "./Shop.css";
 
@@ -12,6 +14,7 @@ export default function Shop() {
     <div className="container">
         <div className="canvas-section">
           <ColorPallete/>
+          {/* <Pagination/> */}
 
             {/* <ColorPicker images={MokesData}/>
             <ColorPallete/> */}
