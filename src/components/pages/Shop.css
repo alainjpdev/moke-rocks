@@ -2,20 +2,14 @@
 
 
 .section-title{
-    /* text-align: center;
-    padding: 15px 0;
-    display: inline-block;
-    width: 100%;
+
+    font-family: Montserrat, sans-serif;
+    box-shadow: black;
+    letter-spacing: 2px;
+    word-spacing:0px;
+    font-size: .6rem;
+    margin-left: 10px;
+    font-weight:700;
     margin-bottom: 20px;
-    border-bottom: 1px solid #e5e5e5;
-    font-size: .5rem; */
 }
 
-.container{
-    /* display: flex; */
-}
-.canvas{
-    /* position: fixed; */
-    /* width: 70%; */
-   
-}

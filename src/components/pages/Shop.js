@@ -1,7 +1,6 @@
 import React from 'react';
 import ColorPallete from '../ColorPallete';
-import ColorPicker from '../ColorPicker';
-import { MokesData } from '../MokesData';
+
 import "./Shop.css";
 
 export default function Shop() {
