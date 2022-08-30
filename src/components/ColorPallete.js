@@ -34,9 +34,9 @@ function ColorPallete() {
       </div>
 
       
-      
+      <div className="border">
       <div className='container-title'>
-          <h1>BODY COLORS</h1>
+          <h1>BODY COLOR</h1>
       </div>
        
       <div className="container-moke">
@@ -120,7 +120,8 @@ function ColorPallete() {
         <div className="card-moke" key={"camo"}>
           <div className="box-moke" onClick={() => setImages("/images/moke_custom/body/camo-body.png")} style={{background : "#828382"}}>
           </div>
-          <p>CAMO</p>
+          <p>CAMO+$1,100</p>
+        </div>
         </div>
 
       </div>
