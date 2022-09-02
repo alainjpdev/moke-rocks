@@ -11,25 +11,51 @@
 
 .container-image{ 
   width: 100%;
+  
+}
+
+
+.default-car-container{
+  position: relative;
+  
+  top: 0;
+  left: 0;
+  background-color: blue;
+  width: auto;
+}
+.image1{
+  /* position: relative; */
+  top: 0px;
+  left: 0px;
+  width: 100;
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px green solid;
+  width: 100%;
 }
 
 .container-title{ 
   font-family: Montserrat, sans-serif;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   /* word-spacing:0px; */
   font-size: .5rem;
-  margin-left: 10px;
+  margin-right: 200px;
   font-weight:700;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 
 .border{
+  /* position: relative; */
   border: .7px solid gray;
-  padding: 20px 20px 10px 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 20px 10px 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 20px;
+  margin-top: 200px;
 }
 
 
@@ -42,8 +68,8 @@
 
 .container-moke .card-moke {
   /* background-color: purple; */
-  width: 145px;
-  padding: 4px; 
+  width: 135px;
+  padding: 3px; 
   display: flex;
   flex-wrap: wrap;
   align-items: center;

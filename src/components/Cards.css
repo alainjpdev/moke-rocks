@@ -12,13 +12,13 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 60px 0 45px;
+    margin: 20px 0 5px;
   }
   
   .cards__items {
@@ -26,10 +26,10 @@
   }
   
   .cards__item {
-    display: flex;
-    flex: 1;
+    /* display: flex; */
+    /* flex: ; */
     margin: 0 1rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
   
   .cards__item__link {
@@ -90,13 +90,13 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 0px 10px;
   }
   
   .cards__item__text_title {
     color: #252e48;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     /* white-space: pre-line;} */
   }
   
