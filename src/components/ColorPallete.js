@@ -9,15 +9,17 @@ export const grill = "grill"
 
 function ColorPallete() {
 
-   
+  const bodyColor = "" 
 
     const afterClick = (e) =>{
     
-      // console.log(e.target.id)
-       setBody(e.target.id)
+      // console.log(e.target.id) 
+      // bodyColor = e.target.id;
+    setBody(e.target.id)
+       
           
     }
-      
+      // console.log(bodyColor)
 
     const [body, setBody] = useState("Black")
 
@@ -43,7 +45,7 @@ function ColorPallete() {
     </div>
 
     </>
-          {/* <DefaultCar body={this.state.body}/> */}
+          {/* <DefaultCar body={body}/> */}
       </div>
       {show? 
       <div className="border">
@@ -70,7 +72,7 @@ function ColorPallete() {
               })}
         </div>
 
-      </div>:<Grill body={"body"}/>}
+      </div>:<Grill/>}
   </div>
 
   <div className="pagination-container">
