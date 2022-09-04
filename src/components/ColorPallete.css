@@ -33,7 +33,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  border: 2px green solid;
+  /* border: 2px green solid; */
   width: 100%;
 }
 
@@ -55,7 +55,7 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 

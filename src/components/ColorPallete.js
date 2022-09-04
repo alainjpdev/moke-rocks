@@ -67,9 +67,8 @@ function ColorPallete() {
       <div className="border">
       
         <div className='container-title'>
-          <div className="row w-100">
-                <div className="col mb-3 col-12 text-center">
-                    <h2>Select the part you want t</h2>
+        
+                    <h2>Select a part of your MOKE</h2>
                     <br />
                     <div
                         className="btn-group"
@@ -90,7 +89,7 @@ function ColorPallete() {
                 </div>
 
                 <div className="col text-center">
-                    <p>{myPart}</p>
+                    <p>{myPart.toUpperCase()}</p>
 
                     <div>
                         {myPart === "body" && (
@@ -154,23 +153,13 @@ function ColorPallete() {
                     </div>
                 </div>
             </div>
-      </div>
+    
        
       
         
 
-      </div>
+     
   </div>
-
-  
-
-  <div className="pagination-container">
-            <a href="#" class="previous" onClick={() => 
-              setShow(true)}>&laquo; Previous</a>
-
-
-            <a href="#" class="next" onClick={whatShow}>Next &raquo;</a>
-        </div>
     </>
   )
   
