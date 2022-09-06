@@ -1,29 +1,29 @@
 
 
 export const ColorsData = [{
-    color:"BLACK",background:"black"
+    color:"black",background:"black"
 },{
-    color:"BLUE", background:"blue"
+    color:"blue", background:"blue"
 },{
-    color:"PINK",background:"pink"
+    color:"pink",background:"pink"
 }, {
-    color:"ORANGE",background:"orange"
+    color:"orange",background:"orange"
 },{
-    color: "RED",background:"red"
+    color: "red",background:"red"
 },{
-    color:"WHITE",background:"white"
+    color:"white",background:"white"
 },{
-    color:"YELLOW",background:"yellow"
+    color:"yellow",background:"yellow"
 },{
-    color:"GREEN",background:"green"
+    color:"green",background:"green"
 },{
-    color:"ROSE",background:"#CEB4BE"
+    color:"rose",background:"#CEB4BE"
 },{
-    color:"CREAM", background:"#F0F0EF"
+    color:"cream", background:"#F0F0EF"
 },{
-    color:"MINT", background: "#2CB695"
+    color:"mint", background: "#2CB695"
 },{
-    color:"COBALT", background:"#5591c9"
+    color:"cobalt", background:"#5591c9"
 },{
-    color:"CAMO+1,100", background:"#828382"
+    color:"camo", background:"#828382"
 }]

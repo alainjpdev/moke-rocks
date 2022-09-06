@@ -36,9 +36,9 @@ function ColorPallete() {
 
     const [body, setBody] = useState("blue")
 
-    const [grill, setGrill] = useState("Black")
+    const [grill, setGrill] = useState("black")
 
-    const [ rollbar, setRollbar] = useState("Black")
+    const [ rollbar, setRollbar] = useState("black")
  
     const [show, setShow] = useState(true)
     
@@ -50,13 +50,13 @@ function ColorPallete() {
       <div className="container-image">
       <> 
     <div className="default-car-container">        
-        <img className="image2" src="./images/moke pics/body/b-base.png" width={"300px"}/>
-        <img className="image2" src={`./images/moke pics/grill/g-${grill}.png`} width={"300px"}/>
-        <img className="image2" src={`./images/moke pics/body/b-${body}.png`} width={"300px"}/>
-        <img className="image2" src={`./images/moke pics/roll/r-${rollbar}.png`} width={"300px"}/>
-        <img className="image2" src="./images/moke pics/seat/s-test.png" width={"300px"}/>
-        <img className="image2" src="./images/moke pics/wheel/w-black.png" width={"300px"}/>
-        <img className="image2" src="./images/moke pics/bumper/p-black.png" width={"300px"}/>
+        <img className="image2" src="./images/moke pics/body/b-base.png" width={"300px"} alt="Something"/>
+        <img className="image2" src={`./images/moke pics/grill/g-${grill}.png`} width={"300px"} alt="Something"/>
+        <img className="image2" src={`./images/moke pics/body/b-${body}.png`} width={"300px"} alt="Something"/>
+        <img className="image2" src={`./images/moke pics/roll/r-${rollbar}.png`} width={"300px"} alt="Something"/>
+        <img className="image2" src="./images/moke pics/seat/s-test.png" width={"300px"} alt="Something"/>
+        <img className="image2" src="./images/moke pics/wheel/w-black.png" width={"300px"} alt="Something"/>
+        <img className="image2" src="./images/moke pics/bumper/p-black.png" width={"300px"} alt="Something"/>
        
     </div>
 
