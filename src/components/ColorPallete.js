@@ -117,7 +117,7 @@ function ColorPallete() {
                                   return(
                                     <div className="card-moke">
                                       <div className="box-moke"
-                                        key={color.color+body}
+                                        key={color.color+"grill"}
                                         id={color.color} 
                                        
                                         onClick={afterClickGrill}
@@ -136,7 +136,7 @@ function ColorPallete() {
                                   return(
                                     <div className="card-moke">
                                       <div className="box-moke"
-                                        key={color.color+body}
+                                        key={color.color+"rollbar"}
                                         id={color.color} 
                                        
                                         onClick={afterClickRollbar}
