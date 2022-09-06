@@ -30,7 +30,12 @@ function ColorPallete() {
       }
     const afterClickRollbar = (e) =>{
    
-        setRollbar(e.target.id)          
+          if(e.target.id === "camo"){
+            e.target.id = "black"
+          } else {
+            setRollbar(e.target.id)
+          }
+                  
         }
 
 

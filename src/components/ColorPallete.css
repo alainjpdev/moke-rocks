@@ -180,3 +180,13 @@ a:hover {
 button, select {
   text-transform:uppercase;
 }
+
+@media screen and (min-width: 550px) {
+  .container-image{ 
+    width: 600px;
+    height: 100px;
+
+  }
+
+  
+}

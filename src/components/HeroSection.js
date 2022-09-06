@@ -29,8 +29,8 @@ function HeroSection() {
       </div>
       <div className='split'>
           <h1><strong>CUSTOMIZE YOUR MOKE TODAY!</strong></h1>
-          <Link to="/shop"><div className='redButton'>BUILD YOURS</div>
-          </Link>
+          <Link to="/shop"><div className='redButton'>BUILD YOURS</div> </Link>
+         
       </div>
       
       <div className="image-militar-container">
