@@ -28,7 +28,7 @@ function Navbar() {
     <>
      <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/"> <img src="/images/moke-tulum.png" alt="bug" height={80} to="/"onClick={closeMobileMenu}/></Link>
+        <Link to="/"> <img src="/images/moke-tulum.png" alt="bug" height={80} to="/"/></Link>
      
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
         

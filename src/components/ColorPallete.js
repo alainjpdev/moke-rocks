@@ -34,7 +34,7 @@ function ColorPallete() {
         }
 
 
-    const [body, setBody] = useState("Black")
+    const [body, setBody] = useState("blue")
 
     const [grill, setGrill] = useState("Black")
 

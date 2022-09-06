@@ -61,21 +61,71 @@
     padding: 40px;
     background-color: black;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
+    display: flex;
+   
+  }
+
+  .redButton {
+    background: #c81d1f;
+    color: #fff;
+    width: initial;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-left: 25px;
+    border-radius: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    word-spacing:0px;  
+    
+  }
+  .redButton:hover{
+    background-color: red;
   }
 
   .responsive {
-    /* background: url("/public/images/2.png")center center/cover no-repeat; */
-
     height: auto;
     width: 100%;
     float: left;
-    /* display: flex; */
-    /* flex: 1; */
-    /* justify-content: center;
+
+  }
+  .image-militar-container{
+    position: relative;
+    
+    float: left;
+
+  }
+
+  .botton-left{
+    position: absolute;
+    bottom: 60px;
+    left: 16px;
+    color: #fff;
+    background-color: #c81d1f;
+    
+    color: #fff;
+    width: initial;
+    padding: 12px 20px;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-left: 25px;
+    border-radius: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain; */
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    word-spacing:0px;  
+  
+  }
+  .botton-left:hover{
+    background-color: red;
   }
   
   .hero-container > h1 {

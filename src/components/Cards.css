@@ -18,18 +18,17 @@
   
   .cards__wrapper {
     position: relative;
-    margin: 20px 0 5px;
+    margin: 10px 0 5px;
+    width: 100%;
   }
   
   .cards__items {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   .cards__item {
-    /* display: flex; */
-    /* flex: ; */
-    margin: 0 1rem;
-    /* border-radius: 10px; */
+
+    margin:0px;
   }
   
   .cards__item__link {
