@@ -2,15 +2,16 @@ import React from 'react'
 import "../App.css"
 import { Button } from './Button';
 import "./HeroSection.css"
-// import Shop from './pages/Shop';
-import { Link } from 'react-router-dom';
-
+import Shop from './pages/Shop';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom" 
+import { Link } from "react-router-dom"
 
 
 
 function HeroSection() {
   return (
     <>
+  
    
     <div className='hero-container'>
      
@@ -29,14 +30,18 @@ function HeroSection() {
       </div>
       <div className='split'>
           <h1><strong>CUSTOMIZE YOUR MOKE TODAY!</strong></h1>
-          <Link to="/shop"><div className='redButton'>BUILD YOURS</div> </Link>
-         
+          <div className="botton-container">
+              {/* <Switch> */}
+               {/* <Route path="/shop"  component={Shop}/> */}
+          <Link to="/Shop" className='redButton'>BUILD YOURS</Link>
+          {/* </Switch> */}
+          </div>         
       </div>
       
       <div className="image-militar-container">
       <img src="/images/2.png" alt="militar" className='responsive'></img>
      
-      <div className="botton-left">CUSTOMIZE</div>
+      <Link to="/"><div className="botton-left">CUSTOMIZE</div></Link>
       {/* <Route path="/shop" exact component={Shop}/> */}
       
       </div>
@@ -47,7 +52,7 @@ function HeroSection() {
       <video src='/videos/ma.mp4' width="100%"autoPlay loop muted controls/>
       </div>
     
-     
+    
     </>
   );
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import ColorPallete from '../ColorPallete';
 import Pagination from '../Pagination';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom" 
 
 
 import "./Shop.css";
 
 export default function Shop() {
-  return <>
+  return <Router>
   <div className="shop-container">
     <div className="section-title">
         <h1 itemprop="name">Build Your eMoke</h1>
@@ -32,7 +33,7 @@ export default function Shop() {
 
 
   
-  </>
+  </Router>
 
   
     
